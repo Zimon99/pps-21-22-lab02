@@ -1,7 +1,8 @@
 package u02
 
-object Es5 extends App {
-
+object Es5 extends App:
+  
+  // Esercizio 5
   def compose(f: Int => Int, g: Int => Int): Int => Int = x => f(g(x))
 
   // Constraint
@@ -11,5 +12,3 @@ object Es5 extends App {
 
   // Generic version
   def genericCompose[A, B, C] (f: A => B, g: C => A): C => B = x => f(g(x))
-
-}

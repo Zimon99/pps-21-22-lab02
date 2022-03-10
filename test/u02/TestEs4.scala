@@ -25,4 +25,3 @@ class TestEs4:
   def testp4(): Unit =
     assertTrue(p4(3,4,4))
     assertFalse(p4(5,4,4))
-

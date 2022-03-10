@@ -23,4 +23,3 @@ class TestEs8:
     assertEquals(Some(5,3), map2[Int](Some(5))(Some(3)))
     assertEquals(None(), map2[Int](None())(Some(3)))
     assertEquals(None(), map2[Int](Some(3))(None()))
-

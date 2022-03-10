@@ -1,6 +1,6 @@
 package u02
 
-object Es7 extends App {
+object Es7 extends App:
 
   enum Shape:
     case Rectangle(base: Double, height: Double)
@@ -17,4 +17,3 @@ object Es7 extends App {
       case Rectangle(base, height) => base * height
       case Circle(radius) => radius * radius * 3.14
       case Square(side) => side * side
-}

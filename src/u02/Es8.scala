@@ -1,6 +1,6 @@
 package u02
 
-object Es8 extends App {
+object Es8 extends App:
 
   enum Option[A]:
     case Some(a: A)
@@ -31,5 +31,3 @@ object Es8 extends App {
     def map2[A](opt1: Option[A])(opt2: Option[A]): Option[(A,A)] = (opt1, opt2) match
       case (Some(a), Some(b)) => Some((a,b))
       case _ => None()
-
-}

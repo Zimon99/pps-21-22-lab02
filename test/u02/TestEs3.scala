@@ -13,10 +13,10 @@ class TestEs3:
     assertEquals("Even", parityLambda(40))
 
   @Test
-  def testParitySintax(): Unit =
-    assertEquals("Even", paritySintax(4))
-    assertEquals("Odd", paritySintax(5))
-    assertEquals("Even", paritySintax(40))
+  def testParitySyntax(): Unit =
+    assertEquals("Even", paritySyntax(4))
+    assertEquals("Odd", paritySyntax(5))
+    assertEquals("Even", paritySyntax(40))
 
   @Test
   def testNeg(): Unit =

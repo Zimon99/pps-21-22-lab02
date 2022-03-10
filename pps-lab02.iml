@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="scala-sdk-2.12.2" level="application" />
     <orderEntry type="module-library" scope="TEST">
@@ -25,7 +25,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="scala-sdk-3.1.0" level="application" />
+    <orderEntry type="library" exported="" name="scala-sdk-3.1.0" level="application" />
     <orderEntry type="library" name="junit.jupiter" level="project" />
     <orderEntry type="library" exported="" name="scala-sdk-3.1.1" level="application" />
   </component>
