@@ -9,6 +9,6 @@ object Es6 extends App:
     case 1 => 1
     case _ => fibNotTail(n - 1) + fibNotTail(n - 2)
 
-  // My recursion is not tail because i don't return only the function name.
-  // I'm sure because i try to check if optimisation is possible with the command
-  // @annotation.tailrec (line 6) but it gives an error.
+  // My recursion is not tail because I don't return only the function name.
+  // I'm sure because I tried to check if optimisation were possible (with the command
+  // @annotation.tailrec, line 6) but it gave error.
